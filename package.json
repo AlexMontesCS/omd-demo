@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@teachinglab/omd": "^0.9.97"
+    "@teachinglab/omd": "^0.9.98"
   },
   "devDependencies": {
     "vite": "^6.4.5"

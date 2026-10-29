@@ -230,9 +230,6 @@ section.wrap { padding-top: 72px; padding-bottom: 8px; }
 @media (max-width: 600px) { .lab-stage { height: 260px; } .lab-stage.tall { height: 380px; } .demo-main, .demo-side { padding: 16px; } }
 /* Tick marks and labels sit above the number line's hit area; let clicks fall through to it. */
 .nl-stage line, .nl-stage text { pointer-events: none; }
-/* Editable table cells render transparent inputs; give them an affordance. */
-.table-stage foreignObject input { background: var(--blue-bg) !important; border-radius: 4px !important; }
-.table-stage foreignObject input:focus { outline: 2px solid var(--blue-fg); }
 .log { display: flex; flex-direction: column; min-height: 0; }
 .log-name { font-size: 12px; color: var(--blue-fg); margin-bottom: 8px; }
 .code.log { background: var(--surface); max-height: 360px; white-space: pre-wrap; word-break: break-word; }
