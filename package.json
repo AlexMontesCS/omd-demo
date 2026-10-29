@@ -1,0 +1,18 @@
+{
+  "name": "omd-demo",
+  "version": "1.0.0",
+  "description": "Live catalog of every @teachinglab/omd visual",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@teachinglab/omd": "^0.9.97"
+  },
+  "devDependencies": {
+    "vite": "^6.4.5"
+  },
+  "private": true,
+  "type": "module"
+}

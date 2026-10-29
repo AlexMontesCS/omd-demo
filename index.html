@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OMD — every visual, rendered live</title>
+  <meta name="description" content="A live tour of @teachinglab/omd: every math visual type, every sample configuration, the interactive models, and a JSON playground.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23111'/%3E%3Cpath d='M7 20h18M16 9v14' stroke='%23fff' stroke-width='2.5' stroke-linecap='round'/%3E%3Ccircle cx='11' cy='20' r='2.6' fill='%237FCFEA'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@300;400;500;600;700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"></div>
+  <nav class="topnav">
+    <div class="wrap row">
+      <a class="mark" href="#/">OMD<span>demo</span></a>
+      <a href="#/" data-nav="overview">Overview</a>
+      <a href="#/catalog" data-nav="catalog">Catalog</a>
+      <a href="#/lab" data-nav="lab">Interactive lab</a>
+      <a href="#/canvas" data-nav="canvas">Canvas</a>
+      <a href="#/playground" data-nav="playground">Playground</a>
+      <span class="spacer"></span>
+      <a class="ext hideable" href="https://www.npmjs.com/package/@teachinglab/omd" target="_blank" rel="noopener">npm</a>
+    </div>
+  </nav>
+  <main id="app"></main>
+  <footer class="wrap foot">
+    <span>Rendered live in your browser by <code>@teachinglab/omd</code> <span id="omd-version"></span>. No images — every figure is generated SVG.</span>
+  </footer>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
